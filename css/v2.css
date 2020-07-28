@@ -393,13 +393,13 @@ body {
 
 .tensorflow {
   display: none;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   display: flex;
   align-items: center;
   position: fixed;
   top: 88px;
-  right: 24px;
+  right: 188px;
   z-index: 2;
 }
 
