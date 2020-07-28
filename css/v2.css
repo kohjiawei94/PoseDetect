@@ -11,7 +11,7 @@ html {
 
 
 body {
-  background: #011638;
+  background: #041739;
   font-family: 'Inter', sans-serif;
 }
 
@@ -113,7 +113,7 @@ body {
 #inline-video{
   padding: 8px;
   width: 100%;
-  max-width: 360px;
+  max-width: 540px;
 }
 
 .info-wrapper {
@@ -271,7 +271,7 @@ body {
   line-height: 150%;
   text-align: center;
   color: #FFFFFF;
-  max-width: 380px;
+  max-width: 540px;
 }
 
 .loading {
@@ -367,7 +367,7 @@ body {
 }
 
 .embed-video {
-  padding-left: 16px;
+  padding-left: 300px;
   padding-top: 24px;
 }
 
@@ -392,15 +392,15 @@ body {
 }
 
 .tensorflow {
-  display: none;
-  width: 300px;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 88px;
-  right: 188px;
-  z-index: 2;
+	display: none;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 88px;
+	right: 88px;
+	z-index: 2;
 }
 
 .info {
