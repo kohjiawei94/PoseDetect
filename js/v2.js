@@ -1,6 +1,56 @@
-// Normal Youtube link & Embedded youtube url samples for reference
-// const EMBED_URL = 'https://www.youtube.com/embed/dQw4w9WgXcQ';
-// const VIDEO_URL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+/*
+I understand the curiousity you have behind this js file..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 
 let URL = 'https://storage.googleapis.com/tm-models/QDvGMpQt/';
 
@@ -17,12 +67,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 async function renderTutorialView() {
 	
   const introView = document.querySelector('#intro-wrapper');
-  //const tutorialView = document.querySelector('#tutorial-wrapper');
-  //const loadingView = document.querySelector('#loading-wrapper');
   introView.style.display = await 'none';
-  //tutorialView.style.display = 'none';
-  //loadingView.style.display = 'block';
-  //tutorialView.style.display = await 'flex';
 	
   await videoElementPlay();
   init();
@@ -122,10 +167,7 @@ function videoElementPlay() {
   const drawVideo = function() {
     // Draw the video onto the canvas
     context.drawImage(video, 0, 0, video.width, video.height);
-
-
-    
-
+	  
     // Draw again every second
     setTimeout(drawVideo, 60);
 
@@ -231,9 +273,7 @@ async function predict() {
     goodState.style.background = 'rgba(255, 255, 255, 0.08)';
     goodState.style.color = '#E0E0E0';
   }
-
   // drawPose(pose);
-
 }
 
 function drawPose(pose) {
