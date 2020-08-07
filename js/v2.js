@@ -1,3 +1,53 @@
+/*
+I'm as curious as you :)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 let URL = 'https://storage.googleapis.com/tm-models/QDvGMpQt/';
 
 let model, webcam, ctx, labelContainer, maxPredictions;
